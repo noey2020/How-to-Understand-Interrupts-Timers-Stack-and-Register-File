@@ -54,11 +54,10 @@ of the 8 registers pushed into.
 
 We single step and when we exit the interrupt service meaning the PC is 0x08000254, we
 return to normal execution. PC is set to execution address saved before interrupt 
-occurred 0x080002CA. Stack contents popped out so SP points again to 0x20000670. xPSR
-is 0x21000000 where ISR is 0 meaning no active ISR. By the way, there is only one active
-ISR at a time, several pending, enabled, and priorities. Interrupt pre-emption, multiple
-interrupt requests, tail-chaining is another topic in itself.
-
+occurred 0x080002CA. Stack contents popped out to cpu registers and SP points again to
+0x20000670. xPSR is 0x21000000 where ISR is 0 meaning no active ISR. By the way, there 
+is only one active ISR at a time, several pending, enabled, and priorities. Interrupt
+pre-emption, multiple interrupt requests, tail-chaining is another topic in itself.
 Just acclimatize yourself debugging, single stepping, stepping in/out/over and run
 full-speed. Be intimate and tinker around.
 

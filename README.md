@@ -2,6 +2,8 @@
 
 How to Understand Interrupts, Timers, Stack, and Register File	July 2, 2020
 
+Hire me!
+
 I appreciate comments. Shoot me an email at noel_s_cruz@yahoo.com!
 
 We'll explore the internal workings of our newly written Systick Timer code. It will 
@@ -96,5 +98,7 @@ int main(void){
 
 
 I appreciate comments. Shoot me an email at noel_s_cruz@yahoo.com!
+
+Hire me!
 
 Happy coding!
